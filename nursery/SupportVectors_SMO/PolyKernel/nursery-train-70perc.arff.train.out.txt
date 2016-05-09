@@ -1,0 +1,393 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 2 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0" 
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: not_recom, recommend
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * parents=usual
+ +       0      * parents=pretentious
+ +       0      * has_nurs=proper
+ +       0      * has_nurs=less_proper
+ +       0      * has_nurs=improper
+ +       0      * has_nurs=critical
+ +       0      * has_nurs=very_crit
+ +       0      * form=complete
+ +       0      * form=completed
+ +       0      * form=incomplete
+ +       0      * form=foster
+ +       0.0007 * children=1
+ +      -0.0007 * children=2
+ +       0      * children=3
+ +       0      * children=more
+ +       0      * housing=convenient
+ +       0      * housing=less_conv
+ +       0      * housing=critical
+ +      -0.0006 * finance
+ +      -0.0002 * social=nonprob
+ +       0.0002 * social=slightly_prob
+ +       0      * social=problematic
+ +       0.9999 * health=recommended
+ +      -0.9999 * health=not_recom
+ -       0.0003
+
+Number of kernel evaluations: 9391 (62.991% cached)
+
+Classifier for classes: not_recom, very_recom
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * parents=usual
+ +       0      * parents=pretentious
+ +       0.0005 * has_nurs=proper
+ +       0.0006 * has_nurs=less_proper
+ +       0.0005 * has_nurs=improper
+ +      -0.0007 * has_nurs=critical
+ +      -0.0008 * has_nurs=very_crit
+ +       0.0003 * form=complete
+ +      -0.0001 * form=completed
+ +      -0.0001 * form=incomplete
+ +      -0.0002 * form=foster
+ +      -0.0001 * children=1
+ +       0      * children=2
+ +       0      * children=3
+ +       0.0002 * children=more
+ +       0.0001 * housing=convenient
+ +       0.0003 * housing=less_conv
+ +      -0.0004 * housing=critical
+ +       0      * finance
+ +      -0.0001 * social=nonprob
+ +       0.0001 * social=slightly_prob
+ +       0      * social=problematic
+ +       1      * health=recommended
+ +      -1      * health=not_recom
+ -       0.0007
+
+Number of kernel evaluations: 53824 (55.488% cached)
+
+Classifier for classes: not_recom, priority
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0002 * parents=usual
+ +       0.0002 * parents=pretentious
+ +      -0.0001 * has_nurs=proper
+ +      -0.0002 * has_nurs=less_proper
+ +      -0.0002 * has_nurs=improper
+ +      -0.0001 * has_nurs=critical
+ +       0.0005 * has_nurs=very_crit
+ +       0      * form=complete
+ +       0      * form=completed
+ +      -0.0001 * form=incomplete
+ +       0.0001 * form=foster
+ +       0      * children=1
+ +       0      * children=2
+ +       0      * children=3
+ +       0      * children=more
+ +      -0.0001 * housing=convenient
+ +       0.0001 * housing=less_conv
+ +       0.0001 * housing=critical
+ +       0      * finance
+ +      -0.0003 * social=nonprob
+ +       0.0001 * social=slightly_prob
+ +       0.0002 * social=problematic
+ +       0.6667 * health=recommended
+ +       0.6666 * health=priority
+ +      -1.3333 * health=not_recom
+ +       0.3334
+
+Number of kernel evaluations: 22091 (68.066% cached)
+
+Classifier for classes: not_recom, spec_prior
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0001 * parents=usual
+ +       0.0001 * parents=pretentious
+ +       0      * has_nurs=proper
+ +       0      * has_nurs=less_proper
+ +      -0.0001 * has_nurs=improper
+ +      -0.0001 * has_nurs=critical
+ +       0.0002 * has_nurs=very_crit
+ +       0      * form=complete
+ +       0.0001 * form=completed
+ +       0      * form=incomplete
+ +      -0.0001 * form=foster
+ +       0      * children=1
+ +      -0.0001 * children=2
+ +       0.0002 * children=3
+ +      -0.0001 * children=more
+ +       0      * housing=convenient
+ +       0      * housing=less_conv
+ +       0.0001 * housing=critical
+ +       0      * finance
+ +      -0.0002 * social=nonprob
+ +       0.0002 * social=slightly_prob
+ +       0      * social=problematic
+ +       0.6667 * health=recommended
+ +       0.667  * health=priority
+ +      -1.3337 * health=not_recom
+ +       0.3333
+
+Number of kernel evaluations: 103250 (60.233% cached)
+
+Classifier for classes: recommend, very_recom
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2304 * parents=usual
+ +       0.2304 * parents=pretentious
+ +      -0.3075 * has_nurs=proper
+ +       0.1535 * has_nurs=less_proper
+ +       0.154  * has_nurs=improper
+ +      -0.3464 * form=complete
+ +       0.1155 * form=completed
+ +       0.115  * form=incomplete
+ +       0.1159 * form=foster
+ +      -0.3463 * children=1
+ +       0.1153 * children=2
+ +       0.1154 * children=3
+ +       0.1155 * children=more
+ +      -0.3073 * housing=convenient
+ +       0.1539 * housing=less_conv
+ +       0.1534 * housing=critical
+ +       0.4621 * finance
+ +       0.0001 * social=nonprob
+ +      -0.0001 * social=slightly_prob
+ +       0      * health=recommended
+ +       2.0765
+
+Number of kernel evaluations: 2972 (67.508% cached)
+
+Classifier for classes: recommend, priority
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.076  * parents=usual
+ +       0.076  * parents=pretentious
+ +      -0.5326 * has_nurs=proper
+ +       0      * has_nurs=less_proper
+ +       0.076  * has_nurs=improper
+ +       0.2288 * has_nurs=critical
+ +       0.2278 * has_nurs=very_crit
+ +      -0.2789 * form=complete
+ +       0.0638 * form=completed
+ +       0.0636 * form=incomplete
+ +       0.1516 * form=foster
+ +      -0.3008 * children=1
+ +       0.0413 * children=2
+ +       0.1301 * children=3
+ +       0.1294 * children=more
+ +      -0.2495 * housing=convenient
+ +       0.0808 * housing=less_conv
+ +       0.1687 * housing=critical
+ +       0.3302 * finance
+ +      -0.2537 * social=nonprob
+ +      -0.2534 * social=slightly_prob
+ +       0.507  * social=problematic
+ +      -0.3806 * health=recommended
+ +       0.3806 * health=priority
+ +       2.3111
+
+Number of kernel evaluations: 11698 (61.594% cached)
+
+Classifier for classes: recommend, spec_prior
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1753 * parents=usual
+ +       0.1753 * parents=pretentious
+ +      -0.7483 * has_nurs=proper
+ +       0.1989 * has_nurs=critical
+ +       0.5494 * has_nurs=very_crit
+ +      -0.2628 * form=complete
+ +       0.0869 * form=completed
+ +       0.0873 * form=incomplete
+ +       0.0887 * form=foster
+ +      -0.2634 * children=1
+ +       0.0868 * children=2
+ +       0.0881 * children=3
+ +       0.0885 * children=more
+ +      -0.2339 * housing=convenient
+ +       0.1165 * housing=less_conv
+ +       0.1174 * housing=critical
+ +       0.35   * finance
+ +      -0.1173 * social=nonprob
+ +      -0.1172 * social=slightly_prob
+ +       0.2345 * social=problematic
+ +      -0.1756 * health=recommended
+ +       0.1756 * health=priority
+ +       0.9771
+
+Number of kernel evaluations: 6448 (72.562% cached)
+
+Classifier for classes: very_recom, priority
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3337 * parents=usual
+ +       0.3337 * parents=pretentious
+ +      -2.0181 * has_nurs=proper
+ +      -2.0181 * has_nurs=less_proper
+ +      -0.6869 * has_nurs=improper
+ +       2.3614 * has_nurs=critical
+ +       2.3618 * has_nurs=very_crit
+ +      -0.8078 * form=complete
+ +      -0.5242 * form=completed
+ +       0.1431 * form=incomplete
+ +       1.1889 * form=foster
+ +      -1.4271 * children=1
+ +      -0.4801 * children=2
+ +       0.9535 * children=3
+ +       0.9536 * children=more
+ +      -1.4606 * housing=convenient
+ +      -0.1282 * housing=less_conv
+ +       1.5888 * housing=critical
+ +       1.332  * finance
+ +      -1.4597 * social=nonprob
+ +      -1.46   * social=slightly_prob
+ +       2.9197 * social=problematic
+ +      -2.3322 * health=recommended
+ +       2.3322 * health=priority
+ +       6.1757
+
+Number of kernel evaluations: 740608 (78.075% cached)
+
+Classifier for classes: very_recom, spec_prior
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3372 * parents=usual
+ +       0.3372 * parents=pretentious
+ +      -1.0699 * has_nurs=proper
+ +      -1.0698 * has_nurs=less_proper
+ +      -0.3952 * has_nurs=improper
+ +       0.9304 * has_nurs=critical
+ +       1.6045 * has_nurs=very_crit
+ +      -0.0005 * form=complete
+ +      -0.0003 * form=completed
+ +       0.0001 * form=incomplete
+ +       0.0007 * form=foster
+ +      -0.0009 * children=1
+ +      -0.0005 * children=2
+ +       0.0006 * children=3
+ +       0.0008 * children=more
+ +      -0.001  * housing=convenient
+ +       0      * housing=less_conv
+ +       0.001  * housing=critical
+ +       0.0011 * finance
+ +      -0.4419 * social=nonprob
+ +      -0.4417 * social=slightly_prob
+ +       0.8836 * social=problematic
+ +      -0.6629 * health=recommended
+ +       0.6629 * health=priority
+ +       0.8371
+
+Number of kernel evaluations: 38316 (76.859% cached)
+
+Classifier for classes: priority, spec_prior
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.6008 * parents=usual
+ +       1.6008 * parents=pretentious
+ +      -4.4822 * has_nurs=proper
+ +      -4.4825 * has_nurs=less_proper
+ +      -0.0803 * has_nurs=improper
+ +       3.1217 * has_nurs=critical
+ +       5.9233 * has_nurs=very_crit
+ +      -0.6002 * form=complete
+ +      -0.2002 * form=completed
+ +       0.2002 * form=incomplete
+ +       0.6002 * form=foster
+ +      -1      * children=1
+ +      -0.2004 * children=2
+ +       0.6002 * children=3
+ +       0.6002 * children=more
+ +      -1.067  * housing=convenient
+ +       0.1335 * housing=less_conv
+ +       0.9335 * housing=critical
+ +       0.8001 * finance
+ +      -0.5336 * social=nonprob
+ +      -0.5335 * social=slightly_prob
+ +       1.067  * social=problematic
+ +      -1.0008 * health=recommended
+ +       1.0008 * health=priority
+ -       2.3211
+
+Number of kernel evaluations: 3231986 (71.976% cached)
+
+
+
+Time taken to build model: 1.37 seconds
+Time taken to test model on training data: 0.09 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6902               95.0951 %
+Incorrectly Classified Instances       356                4.9049 %
+Kappa statistic                          0.9245
+Mean absolute error                      0.242 
+Root mean squared error                  0.3189
+Relative absolute error                 92.8682 %
+Root relative squared error             88.352  %
+Total Number of Instances             7258     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 2419    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  240   88    0 |    c = very_recom
+    0    0   46 3153  115 |    d = priority
+    0    0    0  105 1090 |    e = spec_prior
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6881               94.8057 %
+Incorrectly Classified Instances       377                5.1943 %
+Kappa statistic                          0.92  
+Mean absolute error                      0.2421
+Root mean squared error                  0.3193
+Relative absolute error                 92.911  %
+Root relative squared error             88.4657 %
+Total Number of Instances             7258     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 2419    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  234   94    0 |    c = very_recom
+    0    0   59 3140  115 |    d = priority
+    0    0    0  107 1088 |    e = spec_prior
+

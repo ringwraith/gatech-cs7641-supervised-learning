@@ -1,0 +1,98 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+health = recommended
+|   social = nonprob
+|   |   housing = convenient
+|   |   |   finance = convenient: very_recom (20.0/1.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1: very_recom (5.0/1.0)
+|   |   |   |   children = 2: very_recom (5.0/2.0)
+|   |   |   |   children = 3: priority (5.0)
+|   |   |   |   children = more: priority (5.0)
+|   |   housing = less_conv
+|   |   |   children = 1: very_recom (10.0/2.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   form = foster: priority (2.0)
+|   |   |   children = 3: priority (10.0)
+|   |   |   children = more: priority (8.0)
+|   |   housing = critical: priority (38.0/4.0)
+|   social = slightly_prob
+|   |   housing = convenient
+|   |   |   finance = convenient: very_recom (20.0/1.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1: very_recom (5.0/1.0)
+|   |   |   |   children = 2: very_recom (5.0/2.0)
+|   |   |   |   children = 3: priority (5.0)
+|   |   |   |   children = more: priority (4.0)
+|   |   housing = less_conv
+|   |   |   children = 1: very_recom (10.0/2.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   form = foster: priority (2.0)
+|   |   |   children = 3: priority (10.0)
+|   |   |   children = more: priority (8.0)
+|   |   housing = critical: priority (38.0/4.0)
+|   social = problematic: priority (115.0)
+health = priority: priority (346.0)
+health = not_recom: not_recom (345.0)
+
+Number of Leaves  : 	29
+
+Size of the tree : 	41
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1017               98.0714 %
+Incorrectly Classified Instances        20                1.9286 %
+Kappa statistic                          0.9647
+Mean absolute error                      0.0125
+Root mean squared error                  0.0792
+Relative absolute error                  5.7393 %
+Root relative squared error             23.9836 %
+Total Number of Instances             1037     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 345   0   0   0   0 |   a = not_recom
+   0   0   2   0   0 |   b = recommend
+   0   0  80   8   0 |   c = very_recom
+   0   0  10 592   0 |   d = priority
+   0   0   0   0   0 |   e = spec_prior
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         888               34.2593 %
+Incorrectly Classified Instances      1704               65.7407 %
+Kappa statistic                          0.2189
+Mean absolute error                      0.2608
+Root mean squared error                  0.5046
+Relative absolute error                 77.4321 %
+Root relative squared error            105.8474 %
+Total Number of Instances             2592     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+  864    0    0    0    0 |    a = not_recom
+    0    0    0    0    0 |    b = recommend
+    0    0    0    0    0 |    c = very_recom
+    0    0  186   24    0 |    d = priority
+    0    0   30 1488    0 |    e = spec_prior
+

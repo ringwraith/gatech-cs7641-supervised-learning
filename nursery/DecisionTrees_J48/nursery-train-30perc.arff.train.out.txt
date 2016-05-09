@@ -1,0 +1,189 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+health = recommended
+|   social = nonprob
+|   |   housing = convenient
+|   |   |   finance = convenient
+|   |   |   |   has_nurs = proper: very_recom (16.0/1.0)
+|   |   |   |   has_nurs = less_proper: very_recom (16.0)
+|   |   |   |   has_nurs = improper: very_recom (16.0)
+|   |   |   |   has_nurs = critical: priority (10.0)
+|   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1
+|   |   |   |   |   has_nurs = proper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = less_proper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = improper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = critical: priority (3.0)
+|   |   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (4.0/1.0)
+|   |   |   |   |   form = completed: very_recom (4.0/1.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: priority (3.0)
+|   |   |   |   children = 3: priority (14.0)
+|   |   |   |   children = more: priority (14.0)
+|   |   housing = less_conv
+|   |   |   children = 1
+|   |   |   |   has_nurs = proper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = less_proper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = improper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = critical: priority (6.0)
+|   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (8.0/2.0)
+|   |   |   |   form = completed: very_recom (8.0/2.0)
+|   |   |   |   form = incomplete: priority (8.0)
+|   |   |   |   form = foster: priority (6.0)
+|   |   |   children = 3: priority (28.0)
+|   |   |   children = more: priority (28.0)
+|   |   housing = critical: priority (114.0/6.0)
+|   social = slightly_prob
+|   |   housing = convenient
+|   |   |   finance = convenient
+|   |   |   |   has_nurs = proper: very_recom (16.0/1.0)
+|   |   |   |   has_nurs = less_proper: very_recom (16.0)
+|   |   |   |   has_nurs = improper: very_recom (16.0)
+|   |   |   |   has_nurs = critical: priority (10.0)
+|   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1
+|   |   |   |   |   has_nurs = proper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = less_proper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = improper: very_recom (4.0/1.0)
+|   |   |   |   |   has_nurs = critical: priority (3.0)
+|   |   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (4.0/1.0)
+|   |   |   |   |   form = completed: very_recom (4.0/1.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: priority (3.0)
+|   |   |   |   children = 3: priority (14.0)
+|   |   |   |   children = more: priority (14.0)
+|   |   housing = less_conv
+|   |   |   children = 1
+|   |   |   |   has_nurs = proper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = less_proper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = improper: very_recom (8.0/2.0)
+|   |   |   |   has_nurs = critical: priority (6.0)
+|   |   |   |   has_nurs = very_crit: very_recom (0.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (8.0/2.0)
+|   |   |   |   form = completed: very_recom (8.0/2.0)
+|   |   |   |   form = incomplete: priority (8.0)
+|   |   |   |   form = foster: priority (6.0)
+|   |   |   children = 3: priority (28.0)
+|   |   |   children = more: priority (28.0)
+|   |   housing = critical: priority (114.0/6.0)
+|   social = problematic
+|   |   has_nurs = proper: priority (96.0)
+|   |   has_nurs = less_proper: priority (96.0)
+|   |   has_nurs = improper: priority (96.0)
+|   |   has_nurs = critical
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (10.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1: priority (3.0)
+|   |   |   |   |   children = 2: priority (3.0/1.0)
+|   |   |   |   |   children = 3: spec_prior (2.0)
+|   |   |   |   |   children = more: spec_prior (2.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1: priority (6.0)
+|   |   |   |   children = 2: priority (5.0/1.0)
+|   |   |   |   children = 3: spec_prior (4.0)
+|   |   |   |   children = more: spec_prior (4.0)
+|   |   |   housing = critical: spec_prior (18.0/2.0)
+|   |   has_nurs = very_crit: priority (0.0)
+health = priority
+|   has_nurs = proper: priority (288.0)
+|   has_nurs = less_proper: priority (288.0)
+|   has_nurs = improper: priority (288.0)
+|   has_nurs = critical
+|   |   housing = convenient
+|   |   |   finance = convenient: priority (30.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1: priority (9.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   form = incomplete: spec_prior (3.0)
+|   |   |   |   |   form = foster: priority (0.0)
+|   |   |   |   children = 3: spec_prior (6.0)
+|   |   |   |   children = more: spec_prior (6.0)
+|   |   housing = less_conv
+|   |   |   children = 1: priority (18.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: priority (6.0)
+|   |   |   |   form = completed: priority (6.0)
+|   |   |   |   form = incomplete: spec_prior (5.0)
+|   |   |   |   form = foster: priority (0.0)
+|   |   |   children = 3: spec_prior (12.0)
+|   |   |   children = more: spec_prior (12.0)
+|   |   housing = critical
+|   |   |   form = complete
+|   |   |   |   children = 1: priority (6.0)
+|   |   |   |   children = 2: spec_prior (6.0)
+|   |   |   |   children = 3: spec_prior (6.0)
+|   |   |   |   children = more: spec_prior (6.0)
+|   |   |   form = completed: spec_prior (24.0)
+|   |   |   form = incomplete: spec_prior (6.0)
+|   |   |   form = foster: spec_prior (0.0)
+|   has_nurs = very_crit: priority (0.0)
+health = not_recom: not_recom (1036.0)
+
+Number of Leaves  : 	97
+
+Size of the tree : 	131
+
+
+Time taken to build model: 0.04 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        3062               98.4566 %
+Incorrectly Classified Instances        48                1.5434 %
+Kappa statistic                          0.9728
+Mean absolute error                      0.01  
+Root mean squared error                  0.0708
+Relative absolute error                  4.4312 %
+Root relative squared error             21.0575 %
+Total Number of Instances             3110     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1036    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  184   12    0 |    c = very_recom
+    0    0   30 1722    2 |    d = priority
+    0    0    0    2  120 |    e = spec_prior
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3017               97.0096 %
+Incorrectly Classified Instances        93                2.9904 %
+Kappa statistic                          0.9473
+Mean absolute error                      0.0164
+Root mean squared error                  0.1023
+Relative absolute error                  7.2235 %
+Root relative squared error             30.4121 %
+Total Number of Instances             3110     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1036    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  167   29    0 |    c = very_recom
+    0    0   41 1702   11 |    d = priority
+    0    0    0   10  112 |    e = spec_prior
+

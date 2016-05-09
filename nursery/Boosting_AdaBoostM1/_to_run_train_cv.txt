@@ -1,0 +1,10 @@
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-10perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-20perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-30perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-40perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-50perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-60perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-70perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-80perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-90perc.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.meta.AdaBoostM1 -t datasets/nursery/nursery-train-all.arff -P 100 -S 1 -I 200 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2

@@ -1,0 +1,115 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+health = recommended
+|   social = nonprob
+|   |   housing = convenient
+|   |   |   finance = convenient: very_recom (39.0/1.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1: very_recom (10.0/2.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (3.0)
+|   |   |   |   |   form = completed: very_recom (3.0)
+|   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   children = 3: priority (10.0)
+|   |   |   |   children = more: priority (9.0)
+|   |   housing = less_conv
+|   |   |   children = 1
+|   |   |   |   form = complete: very_recom (6.0)
+|   |   |   |   form = completed: very_recom (6.0)
+|   |   |   |   form = incomplete: very_recom (4.0)
+|   |   |   |   form = foster: priority (4.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (6.0)
+|   |   |   |   form = completed: very_recom (6.0)
+|   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   form = foster: priority (4.0)
+|   |   |   children = 3: priority (19.0)
+|   |   |   children = more: priority (18.0)
+|   |   housing = critical: priority (76.0/6.0)
+|   social = slightly_prob
+|   |   housing = convenient
+|   |   |   finance = convenient: very_recom (39.0/1.0)
+|   |   |   finance = inconv
+|   |   |   |   children = 1: very_recom (10.0/2.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (3.0)
+|   |   |   |   |   form = completed: very_recom (3.0)
+|   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   children = 3: priority (10.0)
+|   |   |   |   children = more: priority (9.0)
+|   |   housing = less_conv
+|   |   |   children = 1
+|   |   |   |   form = complete: very_recom (6.0)
+|   |   |   |   form = completed: very_recom (6.0)
+|   |   |   |   form = incomplete: very_recom (4.0)
+|   |   |   |   form = foster: priority (4.0)
+|   |   |   children = 2
+|   |   |   |   form = complete: very_recom (6.0)
+|   |   |   |   form = completed: very_recom (6.0)
+|   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   form = foster: priority (4.0)
+|   |   |   children = 3: priority (19.0)
+|   |   |   children = more: priority (18.0)
+|   |   housing = critical: priority (76.0/6.0)
+|   social = problematic: priority (230.0)
+health = priority: priority (691.0)
+health = not_recom: not_recom (691.0)
+
+Number of Leaves  : 	41
+
+Size of the tree : 	57
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2056               99.1321 %
+Incorrectly Classified Instances        18                0.8679 %
+Kappa statistic                          0.9839
+Mean absolute error                      0.0062
+Root mean squared error                  0.0559
+Relative absolute error                  2.8776 %
+Root relative squared error             16.9732 %
+Total Number of Instances             2074     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+  691    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  160   12    0 |    c = very_recom
+    0    0    4 1205    0 |    d = priority
+    0    0    0    0    0 |    e = spec_prior
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2046               98.65   %
+Incorrectly Classified Instances        28                1.35   %
+Kappa statistic                          0.9751
+Mean absolute error                      0.0083
+Root mean squared error                  0.0679
+Relative absolute error                  3.8173 %
+Root relative squared error             20.6136 %
+Total Number of Instances             2074     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+  691    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  160   12    0 |    c = very_recom
+    0    0   14 1195    0 |    d = priority
+    0    0    0    0    0 |    e = spec_prior
+

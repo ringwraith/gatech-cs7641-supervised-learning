@@ -1,0 +1,451 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+health = recommended
+|   has_nurs = proper
+|   |   social = nonprob
+|   |   |   parents = usual
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0/1.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   parents = pretentious
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   parents = great_pret: priority (77.0)
+|   |   social = slightly_prob
+|   |   |   parents = usual
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0/1.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   parents = pretentious
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   parents = great_pret: priority (77.0)
+|   |   social = problematic
+|   |   |   parents = usual: priority (96.0)
+|   |   |   parents = pretentious: priority (96.0)
+|   |   |   parents = great_pret
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: priority (13.0)
+|   |   |   |   |   finance = inconv
+|   |   |   |   |   |   children = 1: priority (4.0/1.0)
+|   |   |   |   |   |   children = 2: priority (3.0/1.0)
+|   |   |   |   |   |   children = 3: spec_prior (3.0)
+|   |   |   |   |   |   children = more: spec_prior (3.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: priority (0.0)
+|   |   |   |   |   children = 3: spec_prior (6.0)
+|   |   |   |   |   children = more: spec_prior (6.0)
+|   |   |   |   housing = critical: spec_prior (25.0/2.0)
+|   has_nurs = less_proper
+|   |   social = nonprob
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: very_recom (32.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   |   form = completed: very_recom (4.0)
+|   |   |   |   |   form = incomplete: very_recom (4.0)
+|   |   |   |   |   form = foster: priority (4.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   |   form = completed: very_recom (4.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: priority (4.0)
+|   |   |   |   children = 3: priority (16.0)
+|   |   |   |   children = more: priority (16.0)
+|   |   |   housing = critical: priority (64.0/4.0)
+|   |   social = slightly_prob
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: very_recom (32.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   |   form = completed: very_recom (4.0)
+|   |   |   |   |   form = incomplete: very_recom (4.0)
+|   |   |   |   |   form = foster: priority (4.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: very_recom (4.0)
+|   |   |   |   |   form = completed: very_recom (4.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: priority (4.0)
+|   |   |   |   children = 3: priority (16.0)
+|   |   |   |   children = more: priority (16.0)
+|   |   |   housing = critical: priority (64.0/4.0)
+|   |   social = problematic: priority (192.0)
+|   has_nurs = improper
+|   |   parents = usual
+|   |   |   social = nonprob
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   social = slightly_prob
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: very_recom (16.0)
+|   |   |   |   |   finance = inconv: priority (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: very_recom (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: very_recom (2.0)
+|   |   |   |   |   |   form = completed: very_recom (2.0)
+|   |   |   |   |   |   form = incomplete: priority (2.0)
+|   |   |   |   |   |   form = foster: priority (2.0)
+|   |   |   |   |   children = 3: priority (8.0)
+|   |   |   |   |   children = more: priority (8.0)
+|   |   |   |   housing = critical: priority (32.0/2.0)
+|   |   |   social = problematic: priority (96.0)
+|   |   parents = pretentious
+|   |   |   social = nonprob: priority (96.0)
+|   |   |   social = slightly_prob: priority (96.0)
+|   |   |   social = problematic
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: priority (16.0)
+|   |   |   |   |   finance = inconv: spec_prior (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   |   housing = critical: spec_prior (32.0/2.0)
+|   |   parents = great_pret: priority (0.0)
+|   has_nurs = critical
+|   |   parents = usual
+|   |   |   social = nonprob: priority (96.0)
+|   |   |   social = slightly_prob: priority (96.0)
+|   |   |   social = problematic
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: priority (16.0)
+|   |   |   |   |   finance = inconv: spec_prior (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   |   housing = critical: spec_prior (32.0/2.0)
+|   |   parents = pretentious
+|   |   |   social = nonprob
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: priority (16.0)
+|   |   |   |   |   finance = inconv: spec_prior (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   |   housing = critical: spec_prior (32.0/2.0)
+|   |   |   social = slightly_prob
+|   |   |   |   housing = convenient
+|   |   |   |   |   finance = convenient: priority (16.0)
+|   |   |   |   |   finance = inconv: spec_prior (16.0/5.0)
+|   |   |   |   housing = less_conv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   |   housing = critical: spec_prior (32.0/2.0)
+|   |   |   social = problematic: spec_prior (96.0/1.0)
+|   |   parents = great_pret: priority (0.0)
+|   has_nurs = very_crit
+|   |   social = nonprob
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (32.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: priority (4.0)
+|   |   |   |   |   form = completed: priority (4.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: spec_prior (4.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (4.0)
+|   |   |   |   |   form = completed: priority (4.0)
+|   |   |   |   |   form = incomplete: spec_prior (4.0)
+|   |   |   |   |   form = foster: spec_prior (4.0)
+|   |   |   |   children = 3: spec_prior (16.0)
+|   |   |   |   children = more: spec_prior (16.0)
+|   |   |   housing = critical: spec_prior (64.0/4.0)
+|   |   social = slightly_prob
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (32.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1: priority (8.0/2.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (2.0)
+|   |   |   |   |   |   form = completed: priority (2.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (2.0)
+|   |   |   |   |   |   form = foster: spec_prior (2.0)
+|   |   |   |   |   children = 3: spec_prior (8.0)
+|   |   |   |   |   children = more: spec_prior (8.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: priority (4.0)
+|   |   |   |   |   form = completed: priority (4.0)
+|   |   |   |   |   form = incomplete: priority (4.0)
+|   |   |   |   |   form = foster: spec_prior (4.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (4.0)
+|   |   |   |   |   form = completed: priority (4.0)
+|   |   |   |   |   form = incomplete: spec_prior (4.0)
+|   |   |   |   |   form = foster: spec_prior (4.0)
+|   |   |   |   children = 3: spec_prior (16.0)
+|   |   |   |   children = more: spec_prior (16.0)
+|   |   |   housing = critical: spec_prior (64.0/4.0)
+|   |   social = problematic: spec_prior (192.0/2.0)
+health = priority
+|   has_nurs = proper
+|   |   parents = usual: priority (288.0)
+|   |   parents = pretentious: priority (288.0)
+|   |   parents = great_pret
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (39.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: priority (3.0)
+|   |   |   |   |   |   form = foster: spec_prior (3.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (3.0)
+|   |   |   |   |   |   form = foster: priority (0.0)
+|   |   |   |   |   children = 3: spec_prior (9.0)
+|   |   |   |   |   children = more: spec_prior (9.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: priority (6.0)
+|   |   |   |   |   form = foster: spec_prior (6.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: spec_prior (6.0)
+|   |   |   |   |   form = foster: priority (0.0)
+|   |   |   |   children = 3: spec_prior (18.0)
+|   |   |   |   children = more: spec_prior (18.0)
+|   |   |   housing = critical: spec_prior (74.0/6.0)
+|   has_nurs = less_proper: priority (576.0)
+|   has_nurs = improper
+|   |   parents = usual: priority (288.0)
+|   |   parents = pretentious
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (48.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: priority (3.0)
+|   |   |   |   |   |   form = foster: spec_prior (3.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (3.0)
+|   |   |   |   |   |   form = foster: spec_prior (3.0)
+|   |   |   |   |   children = 3: spec_prior (12.0)
+|   |   |   |   |   children = more: spec_prior (12.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: priority (6.0)
+|   |   |   |   |   form = foster: spec_prior (6.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: spec_prior (6.0)
+|   |   |   |   |   form = foster: spec_prior (6.0)
+|   |   |   |   children = 3: spec_prior (24.0)
+|   |   |   |   children = more: spec_prior (24.0)
+|   |   |   housing = critical: spec_prior (96.0/6.0)
+|   |   parents = great_pret: priority (0.0)
+|   has_nurs = critical
+|   |   parents = usual
+|   |   |   housing = convenient
+|   |   |   |   finance = convenient: priority (48.0)
+|   |   |   |   finance = inconv
+|   |   |   |   |   children = 1
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: priority (3.0)
+|   |   |   |   |   |   form = foster: spec_prior (3.0)
+|   |   |   |   |   children = 2
+|   |   |   |   |   |   form = complete: priority (3.0)
+|   |   |   |   |   |   form = completed: priority (3.0)
+|   |   |   |   |   |   form = incomplete: spec_prior (3.0)
+|   |   |   |   |   |   form = foster: spec_prior (3.0)
+|   |   |   |   |   children = 3: spec_prior (12.0)
+|   |   |   |   |   children = more: spec_prior (12.0)
+|   |   |   housing = less_conv
+|   |   |   |   children = 1
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: priority (6.0)
+|   |   |   |   |   form = foster: spec_prior (6.0)
+|   |   |   |   children = 2
+|   |   |   |   |   form = complete: priority (6.0)
+|   |   |   |   |   form = completed: priority (6.0)
+|   |   |   |   |   form = incomplete: spec_prior (6.0)
+|   |   |   |   |   form = foster: spec_prior (6.0)
+|   |   |   |   children = 3: spec_prior (24.0)
+|   |   |   |   children = more: spec_prior (24.0)
+|   |   |   housing = critical: spec_prior (96.0/6.0)
+|   |   parents = pretentious: spec_prior (288.0/3.0)
+|   |   parents = great_pret: spec_prior (0.0)
+|   has_nurs = very_crit: spec_prior (576.0/6.0)
+health = not_recom: not_recom (3110.0)
+
+Number of Leaves  : 	278
+
+Size of the tree : 	393
+
+
+Time taken to build model: 0.08 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        9179               98.371  %
+Incorrectly Classified Instances       152                1.629  %
+Kappa statistic                          0.9759
+Mean absolute error                      0.0107
+Root mean squared error                  0.073 
+Relative absolute error                  3.9443 %
+Root relative squared error             19.8611 %
+Total Number of Instances             9331     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 3110    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  278   50    0 |    c = very_recom
+    0    0   16 3598   68 |    d = priority
+    0    0    0   16 2193 |    e = spec_prior
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        9082               97.3315 %
+Incorrectly Classified Instances       249                2.6685 %
+Kappa statistic                          0.9605
+Mean absolute error                      0.0139
+Root mean squared error                  0.0903
+Relative absolute error                  5.1423 %
+Root relative squared error             24.5563 %
+Total Number of Instances             9331     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 3110    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  261   67    0 |    c = very_recom
+    0    0   43 3554   85 |    d = priority
+    0    0    0   52 2157 |    e = spec_prior
+

@@ -1,0 +1,591 @@
+
+Options: -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.7779085743008451
+    Node 5    -0.10808056918724229
+    Node 6    -3.319901555105979
+    Node 7    0.727251852836072
+    Node 8    0.7852654497926863
+    Node 9    1.3790724580709588
+    Node 10    2.6965293747443306
+    Node 11    -3.8959093479104134
+    Node 12    -1.4273798124405328
+    Node 13    -3.1445398567653595
+    Node 14    -1.8493089602888322
+    Node 15    3.9125848222567106
+    Node 16    1.724516123649521
+    Node 17    -2.753343086985339
+    Node 18    1.4680762623422934
+    Node 19    -0.25197564387972604
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.8126432205827738
+    Node 5    -0.8048372065565617
+    Node 6    -0.8644750791062191
+    Node 7    -0.7342240826933647
+    Node 8    -0.9239185673579131
+    Node 9    -0.5686979695171513
+    Node 10    -0.5911370245769749
+    Node 11    -1.1576097282922204
+    Node 12    -1.1471175244797316
+    Node 13    -0.6667283302215078
+    Node 14    -0.41358278304413154
+    Node 15    -0.6107604995255761
+    Node 16    -0.9290664738521643
+    Node 17    -0.6737723885654042
+    Node 18    -0.5137876883624892
+    Node 19    -0.976331766279927
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.22480994752668
+    Node 5    -4.271325180465711
+    Node 6    -3.249109712592416
+    Node 7    -6.068521059917771
+    Node 8    -4.84261463786201
+    Node 9    -5.2078246248183335
+    Node 10    2.1387197279372194
+    Node 11    2.581420319692179
+    Node 12    -6.078069238048822
+    Node 13    0.5180191023515704
+    Node 14    2.444522349889457
+    Node 15    3.6319352381292793
+    Node 16    -3.6080731688305843
+    Node 17    -2.458457280908172
+    Node 18    7.6254135502698555
+    Node 19    -0.9661940226769357
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.652606310175601
+    Node 5    -2.622249415680163
+    Node 6    -0.3867932780588115
+    Node 7    4.676087062661875
+    Node 8    -1.122826724934121
+    Node 9    7.1073092927714185
+    Node 10    -9.94223819279049
+    Node 11    -5.140453658469293
+    Node 12    4.1002520015801736
+    Node 13    7.497811017526793
+    Node 14    2.5905382783821214
+    Node 15    -8.264212917561348
+    Node 16    -5.221678064963191
+    Node 17    8.088400933947288
+    Node 18    -8.85009318425763
+    Node 19    6.10947584545289
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.18176898814120782
+    Node 5    2.940072710709833
+    Node 6    4.773534635623115
+    Node 7    -4.942287297630086
+    Node 8    0.5461100099383506
+    Node 9    -6.0023685319242475
+    Node 10    -2.6550015186072766
+    Node 11    3.776977852016038
+    Node 12    1.2564272530500988
+    Node 13    -5.968575150601431
+    Node 14    -4.300768561246263
+    Node 15    -3.8687250590091735
+    Node 16    1.0959469379246807
+    Node 17    -8.456386781199178
+    Node 18    -1.7287200581005746
+    Node 19    -5.840433517523555
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.34196599863707366
+    Attrib parents=usual    -0.48421606695790204
+    Attrib parents=pretentious    0.46852519173022794
+    Attrib parents=great_pret    0.030369487053751892
+    Attrib has_nurs=proper    -1.1730399585761382
+    Attrib has_nurs=less_proper    -1.19386187750958
+    Attrib has_nurs=improper    0.007070142214980115
+    Attrib has_nurs=critical    0.7103218043552972
+    Attrib has_nurs=very_crit    0.6011856295195158
+    Attrib form=complete    0.18525155639186874
+    Attrib form=completed    -0.431819787766837
+    Attrib form=incomplete    -0.19444575431447592
+    Attrib form=foster    -0.32621925535065704
+    Attrib children=1    0.09526686311506131
+    Attrib children=2    -0.2871233273352696
+    Attrib children=3    -0.252653036701566
+    Attrib children=more    -0.2554393698927052
+    Attrib housing=convenient    0.9899459882848909
+    Attrib housing=less_conv    -0.5978450951663464
+    Attrib housing=critical    -0.698354742788668
+    Attrib finance    0.07606183486757172
+    Attrib social=nonprob    -1.0705160734818122
+    Attrib social=slightly_prob    -1.067605007725132
+    Attrib social=problematic    1.815279725506799
+    Attrib health=recommended    -1.677965316998264
+    Attrib health=priority    1.2500182163741667
+    Attrib health=not_recom    0.04333331817723441
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.05935358062341204
+    Attrib parents=usual    -1.0522547022975162
+    Attrib parents=pretentious    1.1346202229105349
+    Attrib parents=great_pret    -0.04227023795264012
+    Attrib has_nurs=proper    -1.2482132245611017
+    Attrib has_nurs=less_proper    -1.2386780746823836
+    Attrib has_nurs=improper    1.072100669552439
+    Attrib has_nurs=critical    0.11632906689514076
+    Attrib has_nurs=very_crit    1.5075952257312741
+    Attrib form=complete    -0.05640842593555552
+    Attrib form=completed    -0.28853520391438764
+    Attrib form=incomplete    0.11960045952557148
+    Attrib form=foster    0.37354865353011035
+    Attrib children=1    -0.2074535592605441
+    Attrib children=2    -0.13107454234622004
+    Attrib children=3    0.2628003643095449
+    Attrib children=more    0.2645540927786786
+    Attrib housing=convenient    -0.4141999933288691
+    Attrib housing=less_conv    0.09069366333836026
+    Attrib housing=critical    0.3415701244842235
+    Attrib finance    0.19918017020614315
+    Attrib social=nonprob    -0.7089483233057746
+    Attrib social=slightly_prob    -0.7058924808379419
+    Attrib social=problematic    1.5214770985814587
+    Attrib health=recommended    0.5614492870395439
+    Attrib health=priority    2.744304830383383
+    Attrib health=not_recom    -3.291298275459836
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.4423011312308836
+    Attrib parents=usual    0.04260058529044489
+    Attrib parents=pretentious    -0.12240783512409414
+    Attrib parents=great_pret    -0.03204508253216634
+    Attrib has_nurs=proper    0.13757149656911652
+    Attrib has_nurs=less_proper    0.13851152998573887
+    Attrib has_nurs=improper    -0.10142319431059349
+    Attrib has_nurs=critical    2.144537574741049
+    Attrib has_nurs=very_crit    -3.646205796164165
+    Attrib form=complete    -1.3097483378362045
+    Attrib form=completed    -0.6030304969819898
+    Attrib form=incomplete    0.2597717103635127
+    Attrib form=foster    0.701099820926889
+    Attrib children=1    -1.5630594408179845
+    Attrib children=2    -0.46242342460933955
+    Attrib children=3    0.5424869673139002
+    Attrib children=more    0.5459935117767001
+    Attrib housing=convenient    -3.4034272982067524
+    Attrib housing=less_conv    0.7070626845970892
+    Attrib housing=critical    2.1945783719647585
+    Attrib finance    -1.535647242561211
+    Attrib social=nonprob    -0.8047179607609025
+    Attrib social=slightly_prob    -0.8055584431274222
+    Attrib social=problematic    1.1675628121196424
+    Attrib health=recommended    -2.2099688005688045
+    Attrib health=priority    -0.1922707301069121
+    Attrib health=not_recom    1.9092845376876024
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.5285194003024087
+    Attrib parents=usual    0.25617206104565143
+    Attrib parents=pretentious    -0.2075496513718566
+    Attrib parents=great_pret    0.005001712109999154
+    Attrib has_nurs=proper    -0.48053718450016664
+    Attrib has_nurs=less_proper    -0.47906038894831454
+    Attrib has_nurs=improper    -1.0374872318572608
+    Attrib has_nurs=critical    0.8411259021153781
+    Attrib has_nurs=very_crit    -0.5014136953485071
+    Attrib form=complete    -0.6917340760942916
+    Attrib form=completed    -0.9534245637031409
+    Attrib form=incomplete    -0.04504685535241844
+    Attrib form=foster    0.48803602226782394
+    Attrib children=1    -1.0395550279249803
+    Attrib children=2    -0.5378518395094091
+    Attrib children=3    0.19019204491244654
+    Attrib children=more    0.1933429920765016
+    Attrib housing=convenient    -0.05171190383828045
+    Attrib housing=less_conv    -0.3642217281779887
+    Attrib housing=critical    -0.06700230635958826
+    Attrib finance    2.2921500478927097
+    Attrib social=nonprob    -0.6439907286066946
+    Attrib social=slightly_prob    -0.6467327406434359
+    Attrib social=problematic    0.800291960525334
+    Attrib health=recommended    -1.9507533891525881
+    Attrib health=priority    0.07032342337955114
+    Attrib health=not_recom    1.3793207688865603
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.1126596609432336
+    Attrib parents=usual    -1.3416733842907709
+    Attrib parents=pretentious    1.3833187025721836
+    Attrib parents=great_pret    -0.007757951928962836
+    Attrib has_nurs=proper    0.6539790169259452
+    Attrib has_nurs=less_proper    0.6518897141586815
+    Attrib has_nurs=improper    3.4132734651217547
+    Attrib has_nurs=critical    -1.604274432184414
+    Attrib has_nurs=very_crit    -3.4689762777116235
+    Attrib form=complete    0.2895617362809192
+    Attrib form=completed    0.08501096555522937
+    Attrib form=incomplete    -0.2782957076242676
+    Attrib form=foster    -0.30044462154933477
+    Attrib children=1    0.4279675375393279
+    Attrib children=2    0.06262318339025348
+    Attrib children=3    -0.381906641579145
+    Attrib children=more    -0.3832438938640882
+    Attrib housing=convenient    0.546288745524127
+    Attrib housing=less_conv    -0.14606040049020702
+    Attrib housing=critical    -0.5513221803857348
+    Attrib finance    -0.6142527326804146
+    Attrib social=nonprob    -1.4581485341322027
+    Attrib social=slightly_prob    -1.460915498477254
+    Attrib social=problematic    2.7399849824956104
+    Attrib health=recommended    -3.29089117819492
+    Attrib health=priority    -0.014124942821088669
+    Attrib health=not_recom    3.269141168384147
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.17212409086607178
+    Attrib parents=usual    -0.015298025225968539
+    Attrib parents=pretentious    0.024320516688112307
+    Attrib parents=great_pret    0.03621035722094161
+    Attrib has_nurs=proper    1.4407123464833154
+    Attrib has_nurs=less_proper    1.4405039974732818
+    Attrib has_nurs=improper    1.4794774204419376
+    Attrib has_nurs=critical    -1.3305590791204054
+    Attrib has_nurs=very_crit    -2.4667229527851666
+    Attrib form=complete    0.7502588755429398
+    Attrib form=completed    1.0320391216254046
+    Attrib form=incomplete    -0.5439804293341435
+    Attrib form=foster    -0.8306087200936433
+    Attrib children=1    1.4570278624934092
+    Attrib children=2    0.07210758048434919
+    Attrib children=3    -0.5903100296046527
+    Attrib children=more    -0.5901690657719164
+    Attrib housing=convenient    0.622048444413745
+    Attrib housing=less_conv    0.32426253305317815
+    Attrib housing=critical    -0.7523411688600149
+    Attrib finance    -1.1234810319895867
+    Attrib social=nonprob    0.6745570041251749
+    Attrib social=slightly_prob    0.6749253779652709
+    Attrib social=problematic    -1.1322207336422172
+    Attrib health=recommended    -1.2978235600544268
+    Attrib health=priority    -3.73416708040533
+    Attrib health=not_recom    5.197609914244852
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.04969317269978672
+    Attrib parents=usual    1.0653380378816757
+    Attrib parents=pretentious    -1.0959742435280635
+    Attrib parents=great_pret    0.03381165323823211
+    Attrib has_nurs=proper    1.569098307060776
+    Attrib has_nurs=less_proper    1.5671986682089596
+    Attrib has_nurs=improper    -0.8347084755025822
+    Attrib has_nurs=critical    -2.087547205507352
+    Attrib has_nurs=very_crit    -0.40257363289456755
+    Attrib form=complete    -0.876885990462249
+    Attrib form=completed    -0.42448426739122325
+    Attrib form=incomplete    0.15220524562640728
+    Attrib form=foster    0.9912651840780595
+    Attrib children=1    -1.0683524670361104
+    Attrib children=2    -0.5300852216725559
+    Attrib children=3    0.6879694398039283
+    Attrib children=more    0.6916680796269004
+    Attrib housing=convenient    -0.7429931529513936
+    Attrib housing=less_conv    -0.2303814198570178
+    Attrib housing=critical    0.8983418132463723
+    Attrib finance    0.31143570113119934
+    Attrib social=nonprob    0.07853169927039884
+    Attrib social=slightly_prob    0.07842378550993462
+    Attrib social=problematic    -0.13577460223458795
+    Attrib health=recommended    2.2186345890703683
+    Attrib health=priority    1.9225270020995715
+    Attrib health=not_recom    -4.106188824008475
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.44003163693947067
+    Attrib parents=usual    0.060712658941446083
+    Attrib parents=pretentious    -0.010079776748418336
+    Attrib parents=great_pret    -0.011278213252272108
+    Attrib has_nurs=proper    -1.7016331831347358
+    Attrib has_nurs=less_proper    -1.7022729363867868
+    Attrib has_nurs=improper    -1.7560103948103303
+    Attrib has_nurs=critical    1.3498206101031889
+    Attrib has_nurs=very_crit    2.3596606444404475
+    Attrib form=complete    -1.8574704580042827
+    Attrib form=completed    -0.5886362518861983
+    Attrib form=incomplete    1.601293133910358
+    Attrib form=foster    -0.1589286328155963
+    Attrib children=1    -1.6780960665212492
+    Attrib children=2    0.856978993316746
+    Attrib children=3    -0.08208500863049302
+    Attrib children=more    -0.09022867121616254
+    Attrib housing=convenient    -1.1076824308891269
+    Attrib housing=less_conv    -1.5896443705928667
+    Attrib housing=critical    2.2909635871120004
+    Attrib finance    0.18223407939084788
+    Attrib social=nonprob    -0.8769576797725492
+    Attrib social=slightly_prob    -0.8780991181878188
+    Attrib social=problematic    1.2455205021695885
+    Attrib health=recommended    -0.0038355443705958996
+    Attrib health=priority    2.1455113728785427
+    Attrib health=not_recom    -2.5148424015188184
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.15472163911433917
+    Attrib parents=usual    -0.059910035062906764
+    Attrib parents=pretentious    0.012661819118176224
+    Attrib parents=great_pret    -0.020181134382197864
+    Attrib has_nurs=proper    2.4285239740317266
+    Attrib has_nurs=less_proper    2.416266875881641
+    Attrib has_nurs=improper    2.2449080715709218
+    Attrib has_nurs=critical    -2.0216587484806743
+    Attrib has_nurs=very_crit    -4.6623213085105055
+    Attrib form=complete    -0.4739219621357494
+    Attrib form=completed    0.06454827856071173
+    Attrib form=incomplete    0.23374213335186883
+    Attrib form=foster    0.4356091880387863
+    Attrib children=1    -0.6039329958638174
+    Attrib children=2    -0.0761453811437516
+    Attrib children=3    0.47840520383861845
+    Attrib children=more    0.4824345118601493
+    Attrib housing=convenient    1.5660118651464485
+    Attrib housing=less_conv    -1.0304472634387958
+    Attrib housing=critical    -0.36392841671856463
+    Attrib finance    -2.057908658106757
+    Attrib social=nonprob    0.6048976785150453
+    Attrib social=slightly_prob    0.6053406297689412
+    Attrib social=problematic    -1.0288759119967787
+    Attrib health=recommended    2.784487020211993
+    Attrib health=priority    1.0242187014219029
+    Attrib health=not_recom    -3.700542317806239
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.8606858189289716
+    Attrib parents=usual    -0.08327386893347766
+    Attrib parents=pretentious    0.0936304773709018
+    Attrib parents=great_pret    0.025265103222886498
+    Attrib has_nurs=proper    1.0984967700302142
+    Attrib has_nurs=less_proper    1.0886490687298243
+    Attrib has_nurs=improper    1.6333185935913597
+    Attrib has_nurs=critical    -0.5728720888387303
+    Attrib has_nurs=very_crit    -0.6845965204884658
+    Attrib form=complete    0.4782545872655292
+    Attrib form=completed    -0.7804708107667582
+    Attrib form=incomplete    1.034492573779444
+    Attrib form=foster    0.9828069060963158
+    Attrib children=1    0.5022141973874745
+    Attrib children=2    -0.36402513195595626
+    Attrib children=3    0.7623996379058817
+    Attrib children=more    0.7582925561473101
+    Attrib housing=convenient    2.228263150751981
+    Attrib housing=less_conv    -1.120839110763259
+    Attrib housing=critical    -0.28534606225179393
+    Attrib finance    -2.4717974560851608
+    Attrib social=nonprob    0.04159711732100453
+    Attrib social=slightly_prob    0.03627840923833128
+    Attrib social=problematic    0.680142977078618
+    Attrib health=recommended    0.8931417561144529
+    Attrib health=priority    1.5306039498661248
+    Attrib health=not_recom    -1.5547817231820877
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.3401974774010643
+    Attrib parents=usual    0.08376504905779507
+    Attrib parents=pretentious    -0.09356925790295577
+    Attrib parents=great_pret    0.04963170147511828
+    Attrib has_nurs=proper    1.1520865770607809
+    Attrib has_nurs=less_proper    1.1563060553877131
+    Attrib has_nurs=improper    0.826055773298117
+    Attrib has_nurs=critical    -0.7344403483218668
+    Attrib has_nurs=very_crit    -1.2439488589975394
+    Attrib form=complete    -0.4411733585839244
+    Attrib form=completed    0.44633020527288425
+    Attrib form=incomplete    0.33060533140145465
+    Attrib form=foster    0.416748393254572
+    Attrib children=1    -0.1369807635643077
+    Attrib children=2    -0.08598196765589776
+    Attrib children=3    0.4785156918083327
+    Attrib children=more    0.4793859353676162
+    Attrib housing=convenient    1.4836973967847078
+    Attrib housing=less_conv    -0.41408104414289326
+    Attrib housing=critical    -0.6737227753135206
+    Attrib finance    -2.8601112430464193
+    Attrib social=nonprob    0.36930584763455326
+    Attrib social=slightly_prob    0.36846573636042984
+    Attrib social=problematic    -0.4476194441946157
+    Attrib health=recommended    -1.9781844881432304
+    Attrib health=priority    -3.4329731290442895
+    Attrib health=not_recom    5.830018516030079
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.4056538523087384
+    Attrib parents=usual    -0.18146962738520844
+    Attrib parents=pretentious    0.09540871940203316
+    Attrib parents=great_pret    -0.023131168716396214
+    Attrib has_nurs=proper    -1.0239125323501792
+    Attrib has_nurs=less_proper    -1.0290605412885576
+    Attrib has_nurs=improper    -0.5881160650233442
+    Attrib has_nurs=critical    0.09658661544340834
+    Attrib has_nurs=very_crit    1.5240589485484062
+    Attrib form=complete    -0.5733771830628366
+    Attrib form=completed    -0.38289845580510234
+    Attrib form=incomplete    0.04932517040486795
+    Attrib form=foster    0.12450368774635234
+    Attrib children=1    -0.6340364711872354
+    Attrib children=2    -0.3197314080347925
+    Attrib children=3    0.09996353880540938
+    Attrib children=more    0.1023536107888042
+    Attrib housing=convenient    -0.6841277780904532
+    Attrib housing=less_conv    -0.20968360195687324
+    Attrib housing=critical    0.5656983696247837
+    Attrib finance    0.27769154414599695
+    Attrib social=nonprob    -0.8940154200143758
+    Attrib social=slightly_prob    -0.8884481788397575
+    Attrib social=problematic    1.5141105391539011
+    Attrib health=recommended    -2.456083382849518
+    Attrib health=priority    -0.02388141108347275
+    Attrib health=not_recom    2.0432771320244374
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.4550201594441755
+    Attrib parents=usual    -0.23476844621690773
+    Attrib parents=pretentious    0.20326393114039054
+    Attrib parents=great_pret    -0.027493510533048285
+    Attrib has_nurs=proper    2.6877010179368894
+    Attrib has_nurs=less_proper    2.701372607606026
+    Attrib has_nurs=improper    2.0873440319850634
+    Attrib has_nurs=critical    -2.4950583468792757
+    Attrib has_nurs=very_crit    -3.483283958919279
+    Attrib form=complete    3.4665641315377007
+    Attrib form=completed    1.3916429256045881
+    Attrib form=incomplete    -0.6788546076492648
+    Attrib form=foster    -3.2644436907918153
+    Attrib children=1    4.130253692762426
+    Attrib children=2    1.9862693330125356
+    Attrib children=3    -2.646562838250884
+    Attrib children=more    -2.610835896860316
+    Attrib housing=convenient    0.8466318613562837
+    Attrib housing=less_conv    2.0326032427492584
+    Attrib housing=critical    -2.303565302322207
+    Attrib finance    1.2074722604119872
+    Attrib social=nonprob    0.3203380740405937
+    Attrib social=slightly_prob    0.31786897093211886
+    Attrib social=problematic    -0.19515775363214075
+    Attrib health=recommended    1.6265774853452923
+    Attrib health=priority    1.0003325388962934
+    Attrib health=not_recom    -2.1422550502496707
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -1.6153176091932964
+    Attrib parents=usual    -0.05289495240783509
+    Attrib parents=pretentious    0.05694300136986035
+    Attrib parents=great_pret    0.023401810142660837
+    Attrib has_nurs=proper    3.084207507527931
+    Attrib has_nurs=less_proper    3.0839503669603543
+    Attrib has_nurs=improper    3.20123654904218
+    Attrib has_nurs=critical    -1.8788511950129732
+    Attrib has_nurs=very_crit    -2.7686243915870254
+    Attrib form=complete    2.3105901153491413
+    Attrib form=completed    0.3477186826514327
+    Attrib form=incomplete    2.532471733312011
+    Attrib form=foster    -1.9881136299983104
+    Attrib children=1    2.5395091904570544
+    Attrib children=2    3.5173281374299896
+    Attrib children=3    -1.4245253301479572
+    Attrib children=more    -1.4218458375332628
+    Attrib housing=convenient    1.5115768365964306
+    Attrib housing=less_conv    0.7792150139862294
+    Attrib housing=critical    -0.6398468391449094
+    Attrib finance    -0.6341472438892876
+    Attrib social=nonprob    1.886092905367187
+    Attrib social=slightly_prob    1.8872366992469367
+    Attrib social=problematic    -2.1455983303273074
+    Attrib health=recommended    0.97479014751251
+    Attrib health=priority    -3.3321647919504067
+    Attrib health=not_recom    3.9753088013795286
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    1.1536257528256486
+    Attrib parents=usual    -0.03326951738419194
+    Attrib parents=pretentious    0.10988922456685146
+    Attrib parents=great_pret    -0.034400075130834144
+    Attrib has_nurs=proper    1.9448852498333848
+    Attrib has_nurs=less_proper    1.9623344882538813
+    Attrib has_nurs=improper    1.872002604516733
+    Attrib has_nurs=critical    -3.4032406934992774
+    Attrib has_nurs=very_crit    -5.816917442815075
+    Attrib form=complete    0.14157192354526332
+    Attrib form=completed    -0.5989162806408029
+    Attrib form=incomplete    -0.8416690727246183
+    Attrib form=foster    -1.0918282977799862
+    Attrib children=1    0.252822930924209
+    Attrib children=2    -0.4569269646559196
+    Attrib children=3    -1.113983626170171
+    Attrib children=more    -1.1177142506791273
+    Attrib housing=convenient    0.6543362169696647
+    Attrib housing=less_conv    -0.4948646045206293
+    Attrib housing=critical    -1.3305202413174932
+    Attrib finance    -0.5142357407864796
+    Attrib social=nonprob    0.5818159640625845
+    Attrib social=slightly_prob    0.5892882950353526
+    Attrib social=problematic    -2.3147693571614094
+    Attrib health=recommended    0.42583843821005624
+    Attrib health=priority    -2.45944741898698
+    Attrib health=not_recom    0.8442538579616815
+Class not_recom
+    Input
+    Node 0
+Class recommend
+    Input
+    Node 1
+Class very_recom
+    Input
+    Node 2
+Class priority
+    Input
+    Node 3
+Class spec_prior
+    Input
+    Node 4
+
+
+Time taken to build model: 19.62 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6190               99.5017 %
+Incorrectly Classified Instances        31                0.4983 %
+Kappa statistic                          0.9921
+Mean absolute error                      0.0034
+Root mean squared error                  0.0449
+Relative absolute error                  1.3317 %
+Root relative squared error             12.6198 %
+Total Number of Instances             6221     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 2073    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  328    0    0 |    c = very_recom
+    0    0    0 3031    0 |    d = priority
+    0    0    0   29  758 |    e = spec_prior
+
+
+=== Error on test data ===
+
+Correctly Classified Instances        1756               67.7469 %
+Incorrectly Classified Instances       836               32.2531 %
+Kappa statistic                          0.535 
+Mean absolute error                      0.1311
+Root mean squared error                  0.3527
+Relative absolute error                 42.2602 %
+Root relative squared error             82.3352 %
+Total Number of Instances             2592     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 864   0   0   0   0 |   a = not_recom
+   0   0   0   0   0 |   b = recommend
+   0   0   0   0   0 |   c = very_recom
+   0   0  52 158   0 |   d = priority
+   0   0   0 784 734 |   e = spec_prior
+

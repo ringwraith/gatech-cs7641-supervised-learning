@@ -1,0 +1,10 @@
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-10perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-20perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-30perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-40perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-50perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-60perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-70perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-80perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-90perc.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.functions.MultilayerPerceptron -t datasets/nursery/nursery-train-all.arff -L 0.1 -M 0.05 -N 500 -V 0 -S 0 -E 20 -H a

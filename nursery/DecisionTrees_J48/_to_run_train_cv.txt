@@ -1,0 +1,10 @@
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-10perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-20perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-30perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-40perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-50perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-60perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-70perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-80perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-90perc.arff -C 0.25 -M 2
+java -cp ../weka/weka-3-6-13/weka.jar weka.classifiers.trees.J48 -t datasets/nursery/nursery-train-all.arff -C 0.25 -M 2
